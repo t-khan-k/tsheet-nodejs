@@ -1,4 +1,4 @@
-## Skeleton for Node.js applications written in TypeScript
+## Tsheet nodejs library in NodeJS & TypeScript
 
 ### Development
 
@@ -16,10 +16,4 @@ npm test
 
 ```bash
 npm run lint
-```
-
-### Building a container
-
-```bash
-docker build .
 ```
