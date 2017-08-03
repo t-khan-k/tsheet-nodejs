@@ -1,4 +1,4 @@
-## Tsheet nodejs library in NodeJS & TypeScript
+## Tsheet library in NodeJS & TypeScript
 
 ### Development
 
