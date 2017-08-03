@@ -1,11 +1,10 @@
-import app from './App'
 
-const port = process.env.PORT || 7777;
+import { auth } from "./entity/Auth";
+import { user } from "./entity/User";
+import { group } from "./entity/Group";
 
-app.listen(port, (err) => {
-  if (err) {
-    return console.log(err)
-  }
-
-  return console.log(`server is listening on ${port}`)
-});
+export var tsheet = {
+  auth,
+  user,
+  group
+};

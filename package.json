@@ -2,7 +2,7 @@
   "name": "tsheet-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch & nodemon dist",
@@ -15,18 +15,25 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "7.0.22",
+    "@types/request-promise-native": "^1.0.6",
+    "chai": "^4.1.0",
     "express": "4.15.3",
-    "nodemon": "1.11.0"
+    "nodemon": "1.11.0",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
   },
   "devDependencies": {
+    "@types/chai-as-promised": "0.0.31",
     "@types/mocha": "2.2.41",
     "@types/node": "7.0.22",
+    "chai-as-promised": "^7.1.1",
     "eslint": "4.0.0",
     "eslint-config-airbnb-base": "11.2.0",
     "eslint-plugin-import": "2.3.0",
     "eslint-plugin-promise": "3.5.0",
     "mocha": "3.4.2",
-    "supertest": "3.0.0",
+    "nock": "^9.0.14",
+    "ts-node": "^3.3.0",
     "tsc": "1.20150623.0",
     "typescript": "2.3.3",
     "typescript-eslint-parser": "3.0.0"
